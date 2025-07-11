@@ -12,7 +12,7 @@ Este projeto é uma aplicação simples para o cadastro de alunos e professores,
 
 ## Estrutura do Projeto
 
-´´´markdown
+```markdown
 /cadastro-alunos-professores  
 ├── 📦 node_modules       # Dependências do projeto  \n
 ├── 📂 src                # Código fonte da aplicação  \n
@@ -25,7 +25,7 @@ Este projeto é uma aplicação simples para o cadastro de alunos e professores,
 ├── 📄 .env               # Variáveis de ambiente (ex: configuração do banco)  \n
 ├── 📄 package.json       # Gerenciador de dependências e scripts  \n
 └── 📄 README.md          # Documentação do projeto  \n
-´´´
+```
 
 ## Instalação
 
