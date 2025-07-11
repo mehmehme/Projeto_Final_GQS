@@ -13,21 +13,17 @@ Este projeto é uma aplicação simples para o cadastro de alunos e professores,
 ## Estrutura do Projeto
 
 /cadastro-alunos-professores
-├── /node_modules # Dependências do projeto
-├── /src # Código fonte da aplicação
-│ ├── /controllers # Controladores para a API
-│ ├── /models # Modelos de dados (Aluno e Professor)
-│ └── /routes # Definição das rotas
-├── /tests # Testes
-│ ├── /unit # Testes unitários com Jest
-│ └── /e2e # Testes de integração com Cypress
-├── .env # Variáveis de ambiente (banco de dados, etc.)
-├── package.json # Dependências e scripts
-└── README.md # Este arquivo
-
-bash
-Copiar
-Editar
+├── 📦 node_modules # Dependências do projeto
+├── 📂 src # Código fonte da aplicação
+│ ├── 📂 controllers # Controladores da API
+│ ├── 📂 models # Modelos de dados (Aluno e Professor)
+│ └── 📂 routes # Definição das rotas da API
+├── 🧪 tests # Testes automatizados
+│ ├── 🧪 unit # Testes unitários com Jest
+│ └── 🧪 e2e # Testes de integração com Cypress
+├── 📄 .env # Variáveis de ambiente (ex: configuração do banco)
+├── 📄 package.json # Gerenciador de dependências e scripts
+└── 📄 README.md # Documentação do projeto
 
 ## Instalação
 
@@ -37,35 +33,32 @@ Primeiro, clone o repositório para sua máquina local:
 
 ```bash
 git clone https://github.com/seu-usuario/cadastro-alunos-professores.git
-```
 cd cadastro-alunos-professores
+```
+
 ### 2. Instalando as dependências
 Certifique-se de que o Node.js e o npm estão instalados. Se não, instale o Node.js a partir do site oficial.
 
 Depois, instale as dependências do projeto:
 
 ```bash
-Copiar
-Editar
 npm install
 ```
 ### 3. Configurando o banco de dados
 Antes de executar a aplicação, crie um banco de dados SQL (MySQL, PostgreSQL ou SQLite) e configure a conexão no arquivo .env. O formato básico do arquivo .env deve ser:
 
-env
-Copiar
-Editar
+```env
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=senha
 DB_NAME=cadastro
+```
+
 ### 4. Executando o servidor
 Após configurar o banco de dados, inicie o servidor da aplicação:
 
 ```bash
-Copiar
-Editar
 npm start
 ```
 Isso vai iniciar o servidor na porta 3000, que é o padrão. A aplicação estará disponível em http://localhost:3000.
@@ -75,8 +68,6 @@ Isso vai iniciar o servidor na porta 3000, que é o padrão. A aplicação estar
 Para rodar os testes unitários com Jest, use o seguinte comando:
 
 ```bash
-Copiar
-Editar
 npm run test
 ```
 Isso vai executar todos os testes localizados na pasta /tests/unit.
@@ -85,8 +76,6 @@ Isso vai executar todos os testes localizados na pasta /tests/unit.
 Para rodar os testes de integração com Cypress, primeiro inicie o servidor (npm start), e em seguida, execute:
 
 ```bash
-Copiar
-Editar
 npm run cypress
 ```
 Isso abrirá a interface do Cypress para você rodar os testes de ponta a ponta, localizados em /tests/e2e.
@@ -108,8 +97,7 @@ Rodar os testes Cypress:
 ```bash
 npm run cypress
 ```
-
-Exemplos de Rotas
+*** Exemplos de Rotas ***
 Cadastro de Aluno
 Método: POST
 
@@ -118,8 +106,6 @@ Rota: /api/alunos
 *** Exemplo de corpo da requisição: ***
 
 ```json
-Copiar
-Editar
 {
   "nome": "João da Silva",
   "email": "joao@exemplo.com",
