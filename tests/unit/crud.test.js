@@ -1,6 +1,8 @@
 const request = require('supertest');
 const app = require('../app');  // Caminho do seu arquivo app.js
 
+app.listen(3000, () => console.log('Rodando...'));
+
 describe('Testes CRUD Aluno', () => {
     it('Deve criar um aluno', async () => {
         const res = await request(app)
