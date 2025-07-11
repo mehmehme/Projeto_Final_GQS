@@ -12,18 +12,20 @@ Este projeto é uma aplicação simples para o cadastro de alunos e professores,
 
 ## Estrutura do Projeto
 
-/cadastro-alunos-professores
-├── 📦 node_modules # Dependências do projeto
-├── 📂 src # Código fonte da aplicação
-│ ├── 📂 controllers # Controladores da API
-│ ├── 📂 models # Modelos de dados (Aluno e Professor)
-│ └── 📂 routes # Definição das rotas da API
-├── 🧪 tests # Testes automatizados
-│ ├── 🧪 unit # Testes unitários com Jest
-│ └── 🧪 e2e # Testes de integração com Cypress
-├── 📄 .env # Variáveis de ambiente (ex: configuração do banco)
-├── 📄 package.json # Gerenciador de dependências e scripts
-└── 📄 README.md # Documentação do projeto
+´´´markdown
+/cadastro-alunos-professores  
+├── 📦 node_modules       # Dependências do projeto  \n
+├── 📂 src                # Código fonte da aplicação  \n
+│   ├── 📂 controllers    # Controladores da API  \n
+│   ├── 📂 models         # Modelos de dados (Aluno e Professor)  \n
+│   └── 📂 routes         # Definição das rotas da API  \n
+├── 🧪 tests              # Testes automatizados  \n
+│   ├── 🧪 unit           # Testes unitários com Jest  \n
+│   └── 🧪 e2e            # Testes de integração com Cypress  \n
+├── 📄 .env               # Variáveis de ambiente (ex: configuração do banco)  \n
+├── 📄 package.json       # Gerenciador de dependências e scripts  \n
+└── 📄 README.md          # Documentação do projeto  \n
+´´´
 
 ## Instalação
 
